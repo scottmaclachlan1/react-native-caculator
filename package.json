@@ -1,0 +1,38 @@
+{
+  "name": "react-native-calculator",
+  "version": "1.0.0",
+  "description": "A modern, responsive calculator app built with React Native and Expo, featuring dark mode support and intuitive user interface",
+  "main": "index.js",
+  "keywords": [
+    "react-native",
+    "expo",
+    "calculator",
+    "mobile-app",
+    "javascript",
+    "dark-mode",
+    "cross-platform"
+  ],
+  "author": "Scott",
+  "license": "MIT",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "lint": "eslint . --ext .js,.jsx",
+    "test": "jest"
+  },
+  "dependencies": {
+    "expo": "~54.0.7",
+    "expo-status-bar": "~3.0.8",
+    "react": "19.1.0",
+    "react-native": "0.81.4",
+    "react-native-safe-area-context": "^5.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0"
+  },
+  "private": true
+}
